@@ -88,6 +88,6 @@ console.log(emailComp);
 let vipList = runners.filter(a => a.donation >= 200);
 console.log(vipList);
 
-// Problem 3: Unfortunately the race falls on the same weekend as a Skinix company retreat and all Skinix employees dropped out of the race. They must be removed from the list of runners.
+// Problem 3: Unfortunately the race falls on the same weekend as a Skinix company retreat and all Skinix employees dropped out of the race. They must be removed from the list of runners, but must remain in the original list to account for their donations.
 let newRunners = runners.filter(a => a.company_name != "Skinix");
 console.log(newRunners);
