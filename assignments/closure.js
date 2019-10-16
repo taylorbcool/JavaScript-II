@@ -8,7 +8,7 @@ const itemFind = () => {
   let item = "phone";
   let place = "the kitchen";
   const locate = (thing) => {
-    return `Your ${thing} is in ${place}.`
+    return `Your ${thing} is in ${place}.`;
     place = "your hand";
   };
   console.log(locate(item));
