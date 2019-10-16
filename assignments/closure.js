@@ -6,10 +6,10 @@
 
 const itemFind = () => {
   let item = "phone";
-  let place = "the kitchen";
+  let place = "your hand";
   const locate = (thing) => {
-    return `Your ${thing} is in ${place}.`;
     place = "your hand";
+    return `Your ${thing} is in ${place}.`;
   };
   console.log(locate(item));
   console.log(locate(item));
